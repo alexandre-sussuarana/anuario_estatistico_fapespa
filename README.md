@@ -1,6 +1,6 @@
 # Anuários Estatísticos do Estado Do Pará
 
-A [Fundação Amazônia de Amparo a Estudos e Pesquisas (FAPESPA)](https://www.fapespa.pa.gov.br/) disponibiliza desde 2015 os Anuários Estatísticos para o Estado do Pará, que reúnem amplo conjunto de dados acerca dos 144 municípios do Estado. São contempladas as áreas de Demografia, Economia, Infraestrutura, Meio Ambiente, Social e Mapas.
+A [Fundação Amazônia de Amparo a Estudos e Pesquisas (FAPESPA)](https://www.fapespa.pa.gov.br/) disponibiliza desde 2015 os [Anuários Estatísticos](https://www.fapespa.pa.gov.br/search/node?keys=anuario+estatistico) para o Estado do Pará, que reúnem amplo conjunto de dados acerca dos 144 municípios do Estado. São contempladas as áreas de Demografia, Economia, Infraestrutura, Meio Ambiente, Social e Mapas.
 
 # Objetivo
 
