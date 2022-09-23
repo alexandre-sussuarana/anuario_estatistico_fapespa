@@ -63,7 +63,7 @@ for (i in 1:length(t0)) {         # LOOP DE OBTENCAO DAS TABELAS POR TABELA
   demografia$nome[i] = d$...1[1]
   demografia$tabela[i] = list(d)
   
-  rm(i, d, temp)
+  rm(i, d, temp, retirar)
   
 }     # LOOP DE OBTENCAO DAS TABELAS POR TABELA
 
