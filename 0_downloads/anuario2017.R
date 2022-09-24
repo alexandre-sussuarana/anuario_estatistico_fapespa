@@ -137,7 +137,7 @@ for (j in div) {
     
   }     # LOOP DE OBTENCAO DAS TABELAS POR SUBSECAO
   
-  rm(j, tab)
+  rm(j)
   
   economia[[subsecao]] = tab
 }
