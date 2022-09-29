@@ -9,17 +9,19 @@ tratar <- function(x) {
   
   
   if (length(inicio.col) == 0) {      # condicional para verificar o inicio.col
-    inicio.col = which(is.na(d$...2) == F) |> dplyr::first()
-    d$...1[inicio.col] = 'Estado/Município'
+    inicio.col = which(is.na(x$...2) == F) |> dplyr::first()
+    x$...1[inicio.col] = 'Estado/Município'
   }  # condicional para verificar o inicio.col
   
   
-  fim = which(is.na(x$...1)) |> dplyr::last()-1                 # Fim da tabela
+  fim = grep('fonte', x$...1, T)-2                              # Fim da tabela
   
   
   if (ncol(x) > 8) {           # condicional para titulos com celulas mescladas
     
     nomecol = x[inicio.col:(inicio.col+1), ] |> t() |> data.frame()
+    
+    names(nomecol) = paste0('X', 1:ncol(nomecol))
     
     guias = which(is.na(nomecol$X1) == F)
     
